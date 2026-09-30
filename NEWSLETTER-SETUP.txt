@@ -1,13 +1,14 @@
 NEWSLETTER PREPARATION — 30 September 2026
 
-Current state: draft only. No subscriber collection, emails or account setup.
+Current state: draft only. MailerLite account created by Jana. Embedded form and empty newsletter group created; default form text still needs editing. No campaign sends or subscriber imports.
 The app About card and website page show Coming soon until activated.
 Contact / reply-to: dxbglutenfree@gmail.com.
 Proposed service: MailerLite. Use a Free plan; no paid upgrade authorized.
 
 Account owner action needed
-Create the MailerLite account with the contact email and complete account/email
-verification. Never share the password or confirmation codes in chat.
+Account created and signed in. Form editor:
+https://dashboard.mailerlite.com/forms/200039981140412206/content
+Never share the password or confirmation codes in chat.
 
 Set up before activation
 1. Create one group: Gluten Free Dubai newsletter.
