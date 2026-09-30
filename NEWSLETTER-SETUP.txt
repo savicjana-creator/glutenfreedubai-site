@@ -1,0 +1,51 @@
+NEWSLETTER PREPARATION — 30 September 2026
+
+Current state: draft only. No subscriber collection, emails or account setup.
+The app About card and website page show Coming soon until activated.
+Contact / reply-to: dxbglutenfree@gmail.com.
+Proposed service: MailerLite. Use a Free plan; no paid upgrade authorized.
+
+Account owner action needed
+Create the MailerLite account with the contact email and complete account/email
+verification. Never share the password or confirmation codes in chat.
+
+Set up before activation
+1. Create one group: Gluten Free Dubai newsletter.
+2. Create an email-only hosted signup form. Copy:
+   A little gluten-free inspiration
+   Gluten-free and lactose-free recipes, Dubai finds and community news.
+   Join the newsletter
+   Confirm your email to subscribe. Unsubscribe anytime.
+3. Enable double opt-in for this form. No prechecked marketing consent, imported
+   support enquiries, dietary/health questionnaire or automatic campaign sends.
+4. Set reply-to to dxbglutenfree@gmail.com. Confirm the actual sender identity
+   permitted for Gmail addresses; authenticate a domain if needed.
+5. Configure the confirmation email and confirmation page. Say "Check your inbox"
+   after form submission and "Subscription confirmed" only after confirmation.
+6. Add a working unsubscribe link and required sender details. Disable optional
+   open/click tracking initially where supported.
+7. Update privacy.html with the actual processor, data collected, purposes,
+   confirmation record, retention/deletion process and tracking settings.
+   Current page accurately says signup is not available.
+8. Test using an owner-controlled address with permission to send test messages:
+   signup -> pending -> confirmation -> subscribed -> unsubscribe -> excluded.
+   Test duplicate addresses, invalid input and repeat unsubscribe.
+9. Set newsletter-config.js signupUrl to the real HTTPS hosted form URL.
+   Set ready: true only after the preceding checks.
+10. Deploy website changes, verify the public page on mobile, then set the app's
+    constants/newsletter.ts NEWSLETTER_SIGNUP_URL to:
+    https://glutenfreedubai.com/newsletter.html
+    Include the app change in the next approved build.
+
+Both website and app must lead to this same form/group. No API secret belongs
+in either public website files or the mobile bundle.
+
+Editorial rhythm: aim for weekly, but no fixed frequency promised in UI.
+One recipe + one local find + one community update. Clearly distinguish
+lactose-free from dairy-free and sourced facts from community experiences.
+Campaigns are drafted for Jana to review before sending.
+
+Official references checked:
+https://www.mailerlite.com/help/how-to-use-double-opt-in-when-collecting-subscribers
+https://www.mailerlite.com/help/the-limitations-of-using-a-free-domain
+https://www.mailerlite.com/pricing
