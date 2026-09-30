@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Newsletter | Gluten Free Dubai</title>
+  <meta name="description" content="Gluten-free and lactose-free recipes, Dubai finds and community news from Gluten Free Dubai.">
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #303923; background: #E9E5D9; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 760px; margin: auto; padding: 32px 22px 70px; }
+    a { color: #56613B; text-underline-offset: 4px; }
+    nav { margin-bottom: 64px; }
+    nav a { display: inline-flex; min-height: 44px; align-items: center; }
+    .eyebrow { color: #56613B; text-transform: uppercase; letter-spacing: .14em; font-size: 12px; font-weight: 700; }
+    h1 { font-family: Georgia, serif; font-size: clamp(36px, 7vw, 58px); line-height: 1.1; font-weight: 500; max-width: 640px; }
+    .intro { font-size: 20px; line-height: 1.6; color: #55645c; }
+    .topics { display: flex; flex-wrap: wrap; gap: 10px; margin: 28px 0; }
+    .topics span { border: 1px solid #D7D7C6; border-radius: 30px; padding: 10px 16px; font-size: 14px; }
+    .card { background: #F7F2E7; border: 1px solid #D7D7C6; border-radius: 20px; padding: 28px; margin: 32px 0; }
+    h2 { margin: 0 0 12px; font-size: 22px; }
+    p { line-height: 1.65; }
+    .button { display: inline-block; padding: 14px 20px; background: #56613B; color: white; border-radius: 12px; text-decoration: none; font-weight: 700; }
+    a:focus-visible { outline: 3px solid #b77b06; outline-offset: 5px; }
+    .small, footer { font-size: 14px; color: #55645c; }
+    footer { border-top: 1px solid #D7D7C6; padding-top: 20px; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav><a href="/">← Gluten Free Dubai</a></nav>
+    <p class="eyebrow">The Gluten Free Dubai newsletter</p>
+    <h1>All the good stuff. None of the gluten.</h1>
+    <p class="intro">Gluten-free and lactose-free recipes, Dubai finds and community news. A little inspiration for your kitchen and your next day out.</p>
+    <div class="topics" aria-label="Newsletter topics">
+      <span>Recipes to try</span><span>Local finds</span><span>Community updates</span>
+    </div>
+    <section class="card" id="coming-soon">
+      <h2>Something good is on the way.</h2>
+      <p>Newsletter sign-ups are not open yet. Check back here soon.</p>
+    </section>
+    <section class="card" id="signup" hidden>
+      <h2>Join the newsletter</h2>
+      <p>Enter your email on our sign-up page, then confirm your subscription using the email we send you.</p>
+      <a class="button" id="signup-link">Continue to sign up →</a>
+      <p class="small">Joining is optional. Unsubscribe anytime using the link in each newsletter. Read our <a href="/privacy.html#newsletter">newsletter privacy information</a>.</p>
+    </section>
+    <p class="small">Recipes will identify gluten-free and lactose-free options separately. Lactose-free does not mean dairy-free.</p>
+    <footer>
+      <p>Questions or recipe ideas? <a href="mailto:dxbglutenfree@gmail.com">dxbglutenfree@gmail.com</a></p>
+      <p>Contacting us does not subscribe you to the newsletter. <a href="/privacy.html">Privacy policy</a></p>
+    </footer>
+  </main>
+  <script src="/newsletter-config.js"></script>
+  <script src="/newsletter.js"></script>
+</body>
+</html>
