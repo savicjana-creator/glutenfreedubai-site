@@ -2,7 +2,7 @@
 // A TestFlight or closed-testing release is not a public launch.
 (function () {
   var stores = {
-    ios: { url: '', host: 'apps.apple.com', label: 'Download on the', name: 'App Store' },
+    ios: { url: 'https://apps.apple.com/ae/app/gluten-free-dubai/id6816718511', host: 'apps.apple.com', label: 'Download on the', name: 'App Store' },
     android: { url: '', host: 'play.google.com', label: 'Get it on', name: 'Google Play' }
   };
   Object.keys(stores).forEach(function (key) {
